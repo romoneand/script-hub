@@ -6,7 +6,7 @@ local Window = Library.CreateLib("Rom script hub", "DarkTheme")
 
 local Tab1 = Window:NewTab("Script hub")
 
-local Tab1Section = Tab1:NewSection("admin command")
+local Tab1Section = Tab1:NewSection("script hub")
 
 local Tab2 = Window:NewTab("Misc")
 
