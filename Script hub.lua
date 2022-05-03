@@ -126,7 +126,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/mm2/main/Mm
 
 end)
 
-Tab1Section:NewButton("clicker sim", "Loads clickercript", function()
+Tab1Section:NewButton("clicker sim script", "Loads clicker script", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kederal/script.gg/main/loader.lua"))()
 
