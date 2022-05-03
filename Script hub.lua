@@ -117,7 +117,7 @@ game.StarterGui:SetCore("SendNotification", {
 end)
 
 Tab2Section:NewButton("DUPE ITEM (ALL GAME)","Loads DUPE ITEM script", function ()
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/get-troll/main/Get%20troll.lua'))() 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/kick./main/Kick.lua'))() 
 
 end)
@@ -155,23 +155,6 @@ Main = {
 });
 
 Tab4Section:NewButton("click this first", "first", function()
-		
-		game.StarterGui:SetCore("SendNotification", {
-    Title = "rejoin loader successfully loaded";
-    Text = "click second SCRIPT for rejon"; -- what the text says (ofc)
-    Duration = 60;
-})
-
-		
-		
-
-	
-
-	
-
-	
-
-	
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/rejoin/main/Rejoin.lua'))() 
 
