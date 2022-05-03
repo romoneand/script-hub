@@ -155,6 +155,23 @@ Main = {
 });
 
 Tab4Section:NewButton("click this first", "first", function()
+		
+		game.StarterGui:SetCore("SendNotification", {
+    Title = "rejoin loader successfully loaded";
+    Text = "click second SCRIPT for rejon"; -- what the text says (ofc)
+    Duration = 60;
+})
+
+		
+		
+
+	
+
+	
+
+	
+
+	
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/rejoin/main/Rejoin.lua'))() 
 
