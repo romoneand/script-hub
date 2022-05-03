@@ -16,6 +16,14 @@ local Tab3 = Window:NewTab("Credits")
 
 local Tab3Section = Tab3:NewSection("Made by romlnwza007#3770")
 
+local Tab4 = Window:NewTab("rejoin stuff")
+
+local Tab4Section = Tab4:NewSection("rejoin stuff")
+
+local Tab5 = Window:NewTab("server hop")
+
+local Tab5Section = Tab5:NewSection("server hop")
+
 -- Buttons
 
 Tab2Section:NewButton("Fly", "Loads Fly Script", function()
@@ -145,3 +153,23 @@ Main = {
 }
 
 });
+
+Tab4Section:NewButton("click this first", "first", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/rejoin/main/Rejoin.lua'))() 
+
+end)
+
+Tab4Section:NewButton("click this second", "click second", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/kick./main/Kick.lua'))() 
+
+end)
+
+Tab5Section:NewButton("serverhop","click for server hop", function ()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/server-hop/main/Server%20hop.lua'))() 
+
+end)
+
+getgenv()["lrisAd"] = true
