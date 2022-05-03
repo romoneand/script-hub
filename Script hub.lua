@@ -119,3 +119,15 @@ Tab1Section:NewButton("sonic speed sim", "Loads sonic speed sim script", functio
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SkaysGG-2095"))()
 
 end)
+
+Tab1Section:NewButton("mm2 ", "Loads mm2 admin scriptript", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/mm2/main/Mm2%20admin%20panel.lua'))() 
+
+end)
+
+Tab1Section:NewButton("clicker sim", "Loads clickercript", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kederal/script.gg/main/loader.lua"))()
+
+end)
