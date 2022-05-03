@@ -131,3 +131,17 @@ Tab1Section:NewButton("clicker sim script", "Loads clicker script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kederal/script.gg/main/loader.lua"))()
 
 end)
+
+local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+
+Notification.Notify("rom", "Made by romlnwza007#3770", "Amongus", {
+
+Duration = 20,       
+
+Main = {
+
+    Rounding = true,
+
+}
+
+});
