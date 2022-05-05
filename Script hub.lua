@@ -26,7 +26,7 @@ local Tab5Section = Tab5:NewSection("server hop")
 
 local Tab6 = Window:NewTab("teleport to player")
 
-local Tab5Section = Tab6:NewSection("teleport to player gui")
+local Tab6Section = Tab6:NewSection("teleport to player gui")
 
 -- Buttons
 
