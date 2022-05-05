@@ -181,3 +181,5 @@ getgenv()["lrisAd"] = true
 Tab6Section:NewButton("open teleport gui","click to open gui", function()
 		
 loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/teleport-to-player-gui/main/Teleport%20gui'))() 
+
+end)
