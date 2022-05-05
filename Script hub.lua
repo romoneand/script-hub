@@ -24,6 +24,10 @@ local Tab5 = Window:NewTab("server hop")
 
 local Tab5Section = Tab5:NewSection("server hop")
 
+local Tab6 = Window:NewTab("teleport to player")
+
+local Tab5Section = Tab6:NewSection("teleport to player gui")
+
 -- Buttons
 
 Tab2Section:NewButton("Fly", "Loads Fly Script", function()
@@ -166,10 +170,14 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/kick./main/
 
 end)
 
-Tab5Section:NewButton("serverhop","click for server hop", function ()
+Tab5Section:NewButton("serverhop","click for server hop", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/server-hop/main/Server%20hop.lua'))() 
 
 end)
 
-getgenv()["lrisAd"] = true
+getgenv()["lrisAd"] = true 
+
+Tab6Section:NewButton("open teleport gui","click to open gui", function()
+		
+loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/teleport-to-player-gui/main/Teleport%20gui'))() 
