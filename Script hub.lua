@@ -1,3 +1,7 @@
+setclipboard(".gg/r2P6xbUfnV")
+
+
+
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
 local Window = Library.CreateLib("Rom script hub", "DarkTheme")
