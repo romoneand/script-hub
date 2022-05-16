@@ -1,3 +1,6 @@
+game.Players.LocalPlayer:kick("get new script in discord")
+
+
 setclipboard(".gg/r2P6xbUfnV")
 
 
